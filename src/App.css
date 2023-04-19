@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+html{
+  background-color: pink;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#container{
+  background-color: pink;
+}
+#add{
+  width: 100%;
+}
+#add_container{
+  margin: 60px auto;
+  width: max-content;
+}
+#add_container button{
+  display: inline;
+  border: 2px solid cadetblue;
+  border-radius: .6rem;
+  background-color: #ACC8E8;
+  font-weight: bold;
+  height: 65px;
+  width: 65px;
+  font-size: large;
+}
+#add_container input {
+  border: 2px solid cadetblue;
+  border-radius: .6rem;
+  height: 60px;
+  width: 300px;
+  padding-left: 20px;
+  font-size: large;
+}
+#current{
+  width:100%;
+}
+.delete{
+  background-color: red;
+  cursor: pointer;
+  border-radius: .5rem;
+  justify-content: center;
+  padding-top: 8px;
+  color:white;
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+}
+#form label{
+  width: max-content;
+  font-size: 2rem;
+  margin-left: 20px;
+  text-align: center;
+  
+}
+#check{
+  width: 2rem;
+  cursor: pointer;
+  height: 2rem; 
+}
+.newClass{
+  border: 2px solid navy;
+  border-radius: 2rem;
+  width: 50%;
+  height: 100px;
+  justify-content: space-between;
+  background-color: darkcyan;
+  margin: auto;
+  margin-bottom: 15px;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  flex-direction: row;
+  color: pink;
 }

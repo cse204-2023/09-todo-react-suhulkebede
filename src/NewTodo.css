@@ -1,0 +1,32 @@
+#add{
+  width: 100%;
+}
+#add_container{
+  margin: 60px auto;
+  width: max-content;
+}
+#add_container button{
+  display: inline;
+  border: 2px solid cadetblue;
+  border-radius: .6rem;
+  background-color: #ACC8E8;
+  font-weight: bold;
+  height: 65px;
+  width: 65px;
+  font-size: large;
+}
+#add_container input {
+  border: 2px solid cadetblue;
+  border-radius: .6rem;
+  height: 60px;
+  width: 300px;
+  padding-left: 20px;
+  font-size: large;
+}
+#form label{
+  width: max-content;
+  font-size: 2rem;
+  margin-left: 20px;
+  text-align: center;
+  
+}
