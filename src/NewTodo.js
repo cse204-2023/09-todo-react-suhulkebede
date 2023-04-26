@@ -1,14 +1,21 @@
-import logo from './logo.svg';
+import { Component } from 'react';
 import './NewTodo.css';
 
-
-function NewTodo() {
-    return (
-        <form id="add-todo">
-            <input type="text" id="input-text" name="input-text" placeholder="Add new ToDo..."></input>
-            <button type="submit">Add</button>
-        </form>
-    );
-}
-
-export default NewTodo;
+class NewTodo extends Component {
+    render() {
+      return (
+        <div id="input">
+            <div id="input_container">
+              <form onSubmit={this.props.formSubmit}>
+                <input value={this.props.userInput} onChange={this.props.changeText} type="text" placeholder="Add new todo..."></input>
+                <button>Add</button>
+              </form>
+              <button id="sort" onClick={this.props.sorting}>Organize</button>
+          </div>
+        </div>
+        
+      );
+    }
+  }
+  
+  export default NewTodo;

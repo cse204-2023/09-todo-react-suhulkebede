@@ -1,32 +1,44 @@
-#add{
-  width: 100%;
+#input{
+  width:100%;
 }
-#add_container{
-  margin: 60px auto;
-  width: max-content;
+#input_container{
+  width:max-content;
+  justify-content: space-between;
+  margin:30px auto;
+  align-items: center;
+  display:flex;
+  flex-direction:row;
 }
-#add_container button{
-  display: inline;
+
+#input_container button{
+  display:inline;
   border: 2px solid cadetblue;
+  margin-left:20px;
+  font-size:2rem;
   border-radius: .6rem;
   background-color: #ACC8E8;
   font-weight: bold;
-  height: 65px;
-  width: 65px;
-  font-size: large;
 }
-#add_container input {
+#input_container input {
   border: 2px solid cadetblue;
-  border-radius: .6rem;
-  height: 60px;
-  width: 300px;
-  padding-left: 20px;
-  font-size: large;
+  border-radius: .5rem;
+  font-size:2rem;
 }
-#form label{
-  width: max-content;
-  font-size: 2rem;
-  margin-left: 20px;
-  text-align: center;
-  
+button{
+  cursor:pointer;
+}
+@media (max-width: 600px) {
+  #input_container button{
+      border:1px solid #9C7E7B;
+      border-radius: .25rem;
+      font-size:1rem;
+  }
+  #input_container input {
+      border:1px solid #9C7E7B;
+      border-radius: .25rem;
+      font-size:1rem;
+  }
+  #input_container{
+      margin:15px auto;
+  }
 }

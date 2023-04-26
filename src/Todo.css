@@ -1,9 +1,25 @@
+
+.todo-item{
+  border: 2px solid navy;
+  border-radius: 2rem;
+  width: 50%;
+  height: 100px;
+  justify-content: space-between;
+  background-color: darkcyan;
+  margin: auto;
+  margin-bottom: 15px;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  flex-direction: row;
+  color: pink;
+}
 .delete{
   background-color: red;
   cursor: pointer;
   border-radius: .5rem;
   justify-content: center;
-  padding-top: 8px;
+  padding-top: 5px;
   color:white;
   font-size: 2rem;
   width: 3rem;
@@ -15,36 +31,41 @@
   cursor: pointer;
   height: 2rem; 
 }
-.newClass{
-  border: 2px solid navy;
-  border-radius: 2rem;
-  width: 50%;
-  height: 100px;
-  justify-content: space-between;
-  background-color: darkcyan;
-  margin: auto;
-  margin-bottom: 15px;
-  display: flex;
-  padding: 1rem;
-  align-items: center;
-  flex-direction: row;
-  color: pink;
-}
-#current{
-  width:100%;
-}
 p{
-  border: 2px solid navy;
-  border-radius: 2rem;
-  width: 50%;
-  height: 100px;
-  justify-content: space-between;
-  background-color: darkcyan;
-  margin: auto;
-  margin-bottom: 15px;
-  display: flex;
-  padding: 1rem;
-  align-items: center;
-  flex-direction: row;
-  color: pink;
+  font-size:2rem;
+  margin-left:10px;
+  width:max-content;
+}
+input[type='checkbox'] {
+  accent-color: lightblue;
+}
+.strike{
+  text-decoration: line-through;
+}
+.no_strike{
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .todo-item{
+      border:1px solid #9C7E7B;
+      border-radius: .75rem;
+      height:50px;
+      padding: .5rem;
+      margin-bottom:5px;
+  }
+  .delete{
+      border-radius: 2.5px;
+      font-size:1rem;
+      width:1.5rem;
+      height:1.5rem;
+  }
+  #check{
+      width:.75rem;
+      height:.75rem;
+  }
+  p{
+      font-size:1rem;
+      margin-left:5px;
+  }
 }
