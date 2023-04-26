@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/09-todo-react-suhulkebede/static/css/main.5c4d5d0c.css",
-    "main.js": "/09-todo-react-suhulkebede/static/js/main.42906752.js",
-    "static/media/logo.svg": "/09-todo-react-suhulkebede/static/media/logo.cf1ad5ea55bdf7ea6e8c68b1ae6ee00b.svg",
+    "main.css": "/09-todo-react-suhulkebede/static/css/main.52aa5bae.css",
+    "main.js": "/09-todo-react-suhulkebede/static/js/main.b565e731.js",
     "index.html": "/09-todo-react-suhulkebede/index.html",
-    "main.5c4d5d0c.css.map": "/09-todo-react-suhulkebede/static/css/main.5c4d5d0c.css.map",
-    "main.42906752.js.map": "/09-todo-react-suhulkebede/static/js/main.42906752.js.map"
+    "main.52aa5bae.css.map": "/09-todo-react-suhulkebede/static/css/main.52aa5bae.css.map",
+    "main.b565e731.js.map": "/09-todo-react-suhulkebede/static/js/main.b565e731.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c4d5d0c.css",
-    "static/js/main.42906752.js"
+    "static/css/main.52aa5bae.css",
+    "static/js/main.b565e731.js"
   ]
 }
